@@ -13,7 +13,7 @@ Input:
                 'message': 'Bom dia!'
             },
             {
-                'email': 'teste@gmail.com',
+                'email': 'test@gmail.com',
                 'message': 'Bom tarde!'
             }
         ]
@@ -32,7 +32,7 @@ import json
 import boto3
 from config import MS_MESSAGING
 
-# MS_MESSAGING = MS_MESSAGING ARN
+# MS_MESSAGING -> MS_MESSAGING ARN
 
 
 def send_sms(messages_array):
