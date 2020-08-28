@@ -32,7 +32,7 @@ import json
 import boto3
 from config import MS_MESSAGING
 
-# MS_MESSAGING = "risk-mg-platform-dev-sms"
+# MS_MESSAGING = MS_MESSAGING ARN
 
 
 def send_sms(messages_array):
