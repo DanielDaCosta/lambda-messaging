@@ -1,4 +1,4 @@
-# lambda-messaging
+# Lambda Messaging
 
 Lambda that sends sms or email to user. It receives an array of dictionaries containing
 phone_number or email and message contents.
